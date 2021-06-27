@@ -3,14 +3,14 @@ using namespace std;
 
 int main() {
 	setlocale(LC_ALL, "ru");
-	cout << "Óêàæèòå ðàçìåð ìàññèâà	: ";
+	cout << "Ð£ÐºÐ°Ð¶Ð¸Ñ‚Ðµ Ñ€Ð°Ð·Ð¼ÐµÑ€ Ð¼Ð°ÑÑÐ¸Ð²Ð°	: ";
 
 	int size;
 	cin >> size;	
 
 	int* array = new int[size];
 	int otrizat = 0;
-	cout << "Çàïîëíèòå ìàññèâ ÷åðåç ïðîáåë: ";
+	cout << "Ð—Ð°Ð¿Ð¾Ð»Ð½Ð¸Ñ‚Ðµ Ð¼Ð°ÑÑÐ¸Ð² Ñ‡ÐµÑ€ÐµÐ· Ð¿Ñ€Ð¾Ð±ÐµÐ»: ";
 	for (int i = 0; i < size; i++)
 	{
 		cin >> array[i];
@@ -33,7 +33,7 @@ int main() {
 	}
 	
 
-	cout << "Íîâûé ìàññèâ áåç îòðèöàòåëüíûõ ÷èñåë: ";
+	cout << "ÐÐ¾Ð²Ñ‹Ð¹ Ð¼Ð°ÑÑÐ¸Ð² Ð±ÐµÐ· Ð¾Ñ‚Ñ€Ð¸Ñ†Ð°Ñ‚ÐµÐ»ÑŒÐ½Ñ‹Ñ… Ñ‡Ð¸ÑÐµÐ»: ";
 	for (int i = 0; i < size-otrizat; i++) {
 		cout << copy_array[i] << " ";
 	}
